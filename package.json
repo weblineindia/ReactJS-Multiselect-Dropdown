@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-weblineindia-multiselect",
+  "name": "react-weblineindia-multiselect",
   "version": "1.0.0",
   "description": "Multiselect Dropdown component is a feature rich select / dropdown / typeahead component built in ReactJS. It provides a default template that fits most use cases for a filterable multiselect dropdown.",
   "author": "weblineindia",
@@ -13,8 +13,8 @@
     "node": ">=10"
   },
   "keywords": [
-    "reactjs-weblineindia-multiselect",
     "react-weblineindia-multiselect",
+    "reactjs-weblineindia-multiselect",
     "multiselect",
     "select-component",
     "react-multiselect",

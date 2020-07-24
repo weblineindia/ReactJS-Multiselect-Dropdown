@@ -37,16 +37,16 @@ Multiselect Dropdown component is a feature rich select / dropdown / typeahead c
 ## Getting started
 
 ```bash
-npm install reactjs-weblineindia-multiselect
+npm install react-weblineindia-multiselect 
 # oR
-yarn add reactjs-weblineindia-multiselect
+yarn add react-weblineindia-multiselect 
 ```
 
 Then, import and register the component:
 
 ```js
 import React, { Component } from "react";
-import Select from 'reactjs-weblineindia-multiselect'
+import Select from 'react-weblineindia-multiselect '
 class Test extends Component {
 constructor(props) {
     super(props);
@@ -156,7 +156,7 @@ Detailed changes for each release are documented in [CHANGELOG.md](./CHANGELOG.m
 
 ## Credits
 
-reactjs-weblineindia-multiselect is inspired by [react-dropdown-select](https://www.npmjs.com/package/react-dropdown-select).
+react-weblineindia-multiselect  is inspired by [react-dropdown-select](https://www.npmjs.com/package/react-dropdown-select).
 
 ## License
 
@@ -166,4 +166,4 @@ reactjs-weblineindia-multiselect is inspired by [react-dropdown-select](https://
 
 ## Keywords
 
-reactjs-weblineindia-multiselect, react-weblineindia-multiselect, multiselect, select-component, react-multiselect, reactjs-multiselect, react-select
+react-weblineindia-multiselect , react-weblineindia-multiselect, multiselect, select-component, react-multiselect, reactjs-multiselect, react-select
