@@ -101,13 +101,13 @@ import { LIB_NAME } from './constants';
     this.select = React.createRef();
     this.dropdownRoot = typeof document !== 'undefined' && document.createElement('div');
   }
-
+     
   componentDidMount() {
     this.props.portal && this.props.portal.appendChild(this.dropdownRoot);
     isomorphicWindow().addEventListener('resize', debounce(this.updateSelectBounds));
     isomorphicWindow().addEventListener('scroll', debounce(this.onScroll));
 
-    this.dropDown('close');
+    
 
     if (this.select) {
       this.updateSelectBounds();

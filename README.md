@@ -37,34 +37,43 @@ Multiselect Dropdown component is a feature rich select / dropdown / typeahead c
 ## Getting started
 
 ```bash
-npm install react-weblineindia-multiselect 
+npm install reactjs-weblineindia-multiselect
 # oR
-yarn add react-weblineindia-multiselect 
+yarn add reactjs-weblineindia-multiselect
 ```
 
 Then, import and register the component:
 
 ```js
 import React, { Component } from "react";
-import Select from 'react-weblineindia-multiselect '
+import Select from 'reactjs-weblineindia-multiselect'
+
 class Test extends Component {
-constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
-      gender : [
-        { name: "abc", id: "1" },
-        { name: "pqr", id: "2" },
-        { name: "xyz", id: "3"}
-    }
-  render(){
-    retrun(
+      gender: [
+        { label: "abc", value: "1" },
+        { label: "pqr", value: "2" },
+        { label: "xyz", value: "3" }
+      ]
+    };
+  }
+
+  setValues = (values) => {
+    // Handle selected values here
+  };
+
+  render() {
+    return (
       <div>
-      <Select options={options} onChange={(values) => this.setValues(values)} />
+        <Select options={this.state.gender} onChange={(values) => this.setValues(values)} />
       </div>
-    )
+    );
   }
 }
-export default Test
+
+export default Test;
 
 ```
 
@@ -146,7 +155,7 @@ export default Test
 
 ## Collection of Components
 
-We have built many other components and free resources for software development in various programming languages. Kindly click here to view our [Free Resources for Software Development](https://www.weblineindia.com/communities.html).
+We have built many other components and free resources for software development in various programming languages. Kindly click here to view our [Free Resources for Software Development](https://www.weblineindia.com/software-development-resources.html).
 
 ------
 
@@ -156,7 +165,7 @@ Detailed changes for each release are documented in [CHANGELOG.md](./CHANGELOG.m
 
 ## Credits
 
-react-weblineindia-multiselect  is inspired by [react-dropdown-select](https://www.npmjs.com/package/react-dropdown-select).
+reactjs-weblineindia-multiselect is inspired by [react-dropdown-select](https://www.npmjs.com/package/react-dropdown-select).
 
 ## License
 
@@ -166,4 +175,4 @@ react-weblineindia-multiselect  is inspired by [react-dropdown-select](https://w
 
 ## Keywords
 
-react-weblineindia-multiselect , react-weblineindia-multiselect, multiselect, select-component, react-multiselect, reactjs-multiselect, react-select
+reactjs-weblineindia-multiselect, react-weblineindia-multiselect, multiselect, select-component, react-multiselect, reactjs-multiselect, react-select
